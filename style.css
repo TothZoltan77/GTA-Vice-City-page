@@ -1,0 +1,267 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Sono&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(128, 29, 29);
+    width: 100%px;
+    height: 100%;
+}
+
+/*HEADER HEADER HEADER 
+HEADER HEADER HEADER*/
+
+
+header {
+    width: 100%px;
+    height: 160px;
+    background-color: rgb(198, 96, 207);
+}
+
+#logo img {
+    width: 250px;
+    height: 160px;
+    margin-left: 15rem;
+}
+
+
+/*NAVBAR NAVBAR NAVBAR NAVBAR
+NAVBAR NAVBAR NAVBAR NAVBAR*/
+
+.nav-menu {
+    display: flex;
+    font-family: 'Gajraj One', cursive;
+    font-size: 30px;
+       
+}
+
+.nav-menu :hover{
+   text-decoration: underline;       
+}
+
+
+
+ul {
+    margin-top: -7rem;
+    list-style-type: none;
+    gap: 6rem;
+    margin-left: 62rem;
+}
+
+a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+
+
+.inputs {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+
+.inputs img {
+    align-items: center;
+    margin-top: 1rem;
+}
+
+
+#searchbar input {
+    margin-top: 10rem;
+    margin-left: 230px;
+    padding: 25px;
+    font-family: Georgia;
+    color: #000000;
+    font-size: 22px;
+    border: 0;
+    display:inline;
+  width: 420px;
+  height: 85px; 
+  background-color: rgb(198, 96, 207);
+  border-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+
+/*SEARCHBAR SEARCHBAR SEARCHBAR SEARCHBAR
+SEARCHBAR SEARCHBAR SEARCHBAR SEARCHBAR*/
+
+#searchbar img {
+    margin-top: -1.6rem;
+}
+
+
+
+button {
+    border: none;
+    padding: 1rem;
+    margin-top: 3rem;
+    width: 80px;
+    height: 90px;
+    cursor:pointer;
+   background-color: rgb(198, 96, 207);
+   border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+
+/*REGISTRATION REGISTRATION REGISTRATION 
+REGISTRATION REGISTRATION REGISTRATION */
+
+#registration {
+    margin-top: -14rem;
+    font-weight: 800;
+    padding: 50px;
+    font-size: 30px;
+    margin-left: 960px;
+    padding: 25px;  
+}
+
+#registration input { 
+    font-size: 18px;
+    height: 60px;
+    width: 800px;
+}
+   
+input {
+    border: 4px solid #000000;  
+}  
+
+label1 {
+    font-family:'Lexend', sans-serif;   
+    margin-left: 104px;
+}
+
+
+label {
+    font-family:'Lexend', sans-serif;  
+    margin-left: 28px;
+    margin-right: 5px;
+}
+
+label2 {
+    font-family:'Lexend', sans-serif;  
+    margin-left: 23px;
+    margin-right: 5px;
+}
+
+ 
+/*CONTAINERS CONTAINERS CONTAINERS 
+CONTAINERS CONTAINERS CONTAINERS*/
+
+.containers {
+   display: flex;
+      
+}
+
+.container {
+    margin-bottom: 10rem;
+    font-size: 18px;
+    line-height: 1.6em;
+    padding: 2rem;
+    margin-left: 12rem;
+    color: antiquewhite;
+    background-color: rgb(128, 29, 29);
+    width: 800px;
+    height: 100%;   
+}
+
+.container h1 {
+    font-size: 40px;
+    font-family: 'Lexend', sans-serif;   
+}
+
+.container p {
+    font-family: 'Laila', sans-serif;
+}
+
+
+
+#news {
+    gap: 2rem;
+    margin-top: 2rem;
+    color: antiquewhite;
+    margin-top: rem;
+    float: right;
+    margin-left: 6rem;
+    background-color: rgb(128, 29, 29);
+    width: 800px;
+    height: 100%;
+}
+
+#news img {
+    margin-top: 1rem;
+    width: 250px;
+    height: 150px;
+}
+
+#news p {
+    margin-top: 12px;
+    width: 260px;
+    float: right;
+    margin-right: 16rem;
+    font-size: 14px;
+    font-family: 'Laila', sans-serif;
+    line-height: 1.4em;
+}
+
+
+#news h2 {
+    font-family: 'Lexend', sans-serif;   
+}
+
+
+/*FOOTER FOOTER FOOTER FOOTER 
+FOOTER FOOTER FOOTER FOOTER */
+
+.footer-menu {
+    display: flex;
+    background-color: rgb(198, 96, 207);
+    width: 100%;
+    height: 400px;
+}
+
+.footer-menu ul {
+    margin-left: 50rem;
+    margin-top: 5rem;
+}
+
+ul h1 {
+    font-family: 'Gajraj One', cursive;
+    color: rgb(141, 68, 148);
+    font-size: 65px;
+}
+
+.footer-menu li {
+    text-align: start;
+    font-family: 'Laila', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-weight: 700;
+    color: antiquewhite;
+}  
+
+
+
+.footer-menu a {
+   
+    color: antiquewhite;
+} 
+
